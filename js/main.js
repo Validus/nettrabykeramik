@@ -1,4 +1,155 @@
 let objectsForSale = [
+
+	{
+		title: 'Fat',
+		description: 'Fat svart glasyr med blått flammigt mönster. Ca 37x28cm',
+		price: 700,
+		images: ['PXL_20240917_144248721.jpg', 'PXL_20240917_144254560.jpg', 'PXL_20240917_144308476.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567432314196487/?sale_post_id=1567432314196487'
+	},
+	{
+		title: 'Fat',
+		description: 'Fat i prickig honungsvit glasyr. Ca 40x23cm.',
+		price: 600,
+		images: ['PXL_20240917_143900667.jpg', 'PXL_20240917_143851251.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567430727529979/?sale_post_id=1567430727529979'
+	},
+	{
+		title: 'Skål',
+		description: 'Flerfärgad skål med honungsvit bas.',
+		price: 200,
+		images: ['PXL_20240917_150717537.jpg', 'PXL_20240917_150724197.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567429374196781/?sale_post_id=1567429374196781'
+	},
+	{
+		title: 'Muggar',
+		description: 'Muggar i honungsvit glasyr med turkos sida. Pris per styck.',
+		price: 150,
+		images: ['PXL_20240917_145955643.jpg', 'PXL_20240917_145936451.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567428294196889/?sale_post_id=1567428294196889'
+	},
+	{
+		title: 'Kopp',
+		description: 'Kopp i svart glasyr med blått flammigt mönster.',
+		price: 150,
+		images: ['PXL_20240917_150307761.jpg', 'PXL_20240917_150312147.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567427114197007/?sale_post_id=1567427114197007'
+	},
+	{
+		title: 'Skål',
+		description: 'Skål i djup blå glasyr med jordiga brytningar.',
+		price: 200,
+		images: ['PXL_20240917_150543141.jpg', 'PXL_20240917_150546226.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567425937530458/?sale_post_id=1567425937530458'
+	},
+	{
+		title: 'Garnskål',
+		description: 'Garnskål med pricking honungsvit glasyr och emeraldgrön kant.\n' +
+			'Ca 6cm djup och 13cm bred',
+		price: 250,
+		images: ['PXL_20240917_150908677.jpg', 'PXL_20240917_150915799.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567424950863890/?sale_post_id=1567424950863890'
+	},
+	{
+		title: 'Mugg',
+		description: 'Mugg i flammig blå/lila glasyr.',
+		price: 150,
+		images: ['PXL_20240917_150341349.jpg', 'PXL_20240917_150336825.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567423304197388/?sale_post_id=1567423304197388'
+	},
+	{
+		title: 'Skål',
+		description: 'Skål i lila glasyr',
+		price: 200,
+		images: ['PXL_20240917_150521882.jpg', 'PXL_20240917_150527200.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567421657530886/?sale_post_id=1567421657530886'
+	},
+	{
+		title: 'Skål',
+		description: 'Skål i emeraldgrön glasyr.',
+		price: 200,
+		images: ['PXL_20240917_150621939.jpg', 'PXL_20240917_150640542.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567420340864351/?sale_post_id=1567420340864351'
+	},
+	{
+		title: 'Tumblermugg',
+		description: 'Tumblermugg med glasyr som är svart med mörkblått skimmer.',
+		price: 150,
+		images: ['PXL_20240917_150201777.jpg', 'PXL_20240917_150210774.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567419287531123/?sale_post_id=1567419287531123'
+	},
+	{
+		title: 'Ljuslyckta',
+		description: 'I svart bas-glasyr och flertalet andra glasyrer pålagt för att ge ett mönster som påminner om en galax.\n' +
+			'Ca 13cm hög.',
+		price: 250,
+		images: ['PXL_20240917_144650188.jpg', 'PXL_20240917_144659007.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567414637531588/?sale_post_id=1567414637531588'
+	},
+	{
+		title: 'Mugg-set',
+		description: 'Mugg-set i guld/mässing och svart glasyr.',
+		price: 300,
+		images: ['PXL_20240917_150056196.jpg', 'PXL_20240917_150101756.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567410517532000/?sale_post_id=1567410517532000'
+	},
+	{
+		title: 'Fat',
+		description: 'Fat i prickig honungsvit glasyr. Ca 40x23cm.',
+		price: 500,
+		images: ['PXL_20240917_143930289.jpg', 'PXL_20240917_143934965.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567408807532171/?sale_post_id=1567408807532171'
+	},
+	{
+		title: 'Skål',
+		description: 'Skål i flammande blå glasyr med inslag av gröna toner.',
+		price: 200,
+		images: ['PXL_20240917_150803125.jpg', 'PXL_20240917_150808399.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567407140865671/?sale_post_id=1567407140865671'
+	},
+	{
+		title: 'Vas',
+		description: 'Vas ca 18cm hög, 9 bred. I prickig honungsvit glasyr.',
+		price: 300,
+		images: ['PXL_20240917_144510360.jpg', 'PXL_20240917_144502126.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567405787532473/?sale_post_id=1567405787532473'
+	},
+	{
+		title: 'Skål',
+		description: 'Liten skål i djup turkos glasyr.',
+		price: 150,
+		images: ['PXL_20240917_150840100.jpg', 'PXL_20240917_150844058.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567404204199298/?sale_post_id=1567404204199298'
+	},
+	{
+		title: 'Garnskål',
+		description: 'Garnskål i vågande glasyr från ljusblå till blå.\n' +
+			'6cm djup och 15cm bred.',
+		price: 250,
+		images: ['PXL_20240917_151029095.jpg', 'PXL_20240917_151037540.jpg', 'PXL_20240917_151048790.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567402424199476/?sale_post_id=1567402424199476'
+	},
+	{
+		title: 'Temugg',
+		description: 'Temugg med olika glasyrlager, från midnattsblått till turkos.',
+		price: 150,
+		images: ['PXL_20240917_150242324.jpg', 'PXL_20240917_150247303.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567400224199696/?sale_post_id=1567400224199696'
+	},
+	{
+		title: 'Ljusfat',
+		description: 'Ljusfat i djup svart glasyr med variationer från blått till lila i.',
+		price: 250,
+		images: ['PXL_20240917_150444456.jpg', 'PXL_20240917_150451574.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567398880866497/?sale_post_id=1567398880866497'
+	},
+	{
+		title: 'Assietter',
+		description: '6st assietter i honungsvit glasyr med turkos sida. Diameter 16,5cm. Pris per styck.',
+		price: 150,
+		images: ['PXL_20240917_145813011.jpg', 'PXL_20240917_145817657.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1567395640866821/?sale_post_id=1567395640866821'
+	},
 	{
 		title: 'Kopp',
 		description: 'Kopp i djup svart glasyr med lila skimmer',
@@ -6,20 +157,7 @@ let objectsForSale = [
 		images: ['PXL_20231127_165305158~2.jpg', 'PXL_20231127_165310834~2.jpg', 'PXL_20231127_165325229~2.jpg'],
 		link: 'https://www.facebook.com/groups/869565873983138/permalink/1388944258711961/?sale_post_id=1388944258711961'
 	},
-	{
-		title: 'Kopp',
-		description: 'Kopp i djup svart glasyr med vågigt grön ovankant',
-		price: 150,
-		images: ['PXL_20231127_165229718~2.jpg', 'PXL_20231127_165239811~2.jpg', 'PXL_20231127_165244820~2.jpg'],
-		link: 'https://www.facebook.com/groups/869565873983138/permalink/1388944732045247/?sale_post_id=1388944732045247'
-	},
-	{
-		title: 'Kopp-sett',
-		description: '4 st koppar med olika glasyrlager som ger härlig jordnära känsla med rinningar av guld/rost.',
-		price: 150,
-		images: ['PXL_20231127_165032644~2.jpg', 'PXL_20231127_165045407~2.jpg', 'PXL_20231127_165050712~2.jpg', 'PXL_20231127_165128785.LONG_EXPOSURE-01.COVER~2.jpg'],
-		link: 'https://www.facebook.com/groups/869565873983138/permalink/1388945365378517/?sale_post_id=1388945365378517'
-	},
+
 	{
 		title: 'Vas',
 		description: 'Ca 20cm hög vas med olika glasyrlager, vågor från midnattsblått till turkos.',
@@ -34,20 +172,7 @@ let objectsForSale = [
 		images: ['PXL_20231127_165411420~2.jpg', 'PXL_20231127_165418122~2.jpg'],
 		link: 'https://www.facebook.com/groups/869565873983138/permalink/1388946078711779/?sale_post_id=1388946078711779'
 	},
-	{
-		title: 'Lampett',
-		description: 'Lampett med hypnotiserande glittrande svart glasyr. Ca 20cm hög',
-		price: 250,
-		images: ['PXL_20231201_160746878~2.jpg', 'PXL_20231127_164722017~2.jpg', 'PXL_20231127_164751279~2.jpg'],
-		link: 'https://www.facebook.com/groups/869565873983138/permalink/1388946702045050/?sale_post_id=1388946702045050'
-	},
-	{
-		title: 'Lampett',
-		description: 'Lampett med hypnotiserande glittrande svart glasyr. Ca 20cm hög',
-		price: 250,
-		images: ['PXL_20231127_164820412~2.jpg', 'PXL_20231127_164828823~2.jpg', 'PXL_20231201_160746878~2.jpg'],
-		link: 'https://www.facebook.com/groups/869565873983138/permalink/1388947135378340/?sale_post_id=1388947135378340'
-	},
+
 	{
 		title: 'Lampett',
 		description: 'Lampett med mörk metallisk spegelblank glasyr.  Ca 20cm hög',
@@ -78,18 +203,12 @@ let objectsForSale = [
 },
 {
 	title: 'Kopp',
-	description: 'Kopp-sett med glasyrkombination som ger toner av rosa och lila',
-	price: 300,
+	description: 'Kopp med glasyrkombination som ger toner av rosa och lila',
+	price: 150,
 	images: ['PXL_20230513_081407234~2.jpg', 'PXL_20230513_081416909~3.jpg', 'PXL_20230513_081435118~2.jpg'],
 	link: 'https://www.facebook.com/groups/869565873983138/permalink/1278799349726453/?sale_post_id=1278799349726453'
 },
-{
-	title: 'Kopp-set',
-	description: 'Kopp-set med olika glasyrlager som ger färg från rödbrunt till skimrande mörkblått och gräddvit glasyr inuti.',
-	price: 150,
-	images: ['PXL_20230416_183807463~2.jpg', 'PXL_20230416_183813360~2.jpg', 'PXL_20230416_183829269~2.jpg'],
-	link: 'https://www.facebook.com/groups/869565873983138/permalink/1278792339727154/?sale_post_id=1278792339727154'
-},
+
 {
 	title: 'Mugg',
 	description: 'Mugg med glittrig svart som övergår i brunt, med svart insida',
@@ -104,21 +223,8 @@ let objectsForSale = [
 	images: ['PXL_20221128_133901914~2.jpg', 'PXL_20221128_133909499~2.jpg'],
 	link: 'https://www.facebook.com/groups/869565873983138/permalink/1175129543426768/?sale_post_id=1175129543426768'
 },
-{
-	title: 'Tumblermugg',
-	description: 'Tumblermugg med 3 olika glasyer som skapar en härligt galen kombo från vete till lila och blått.',
-	price: 150,
-	images: ['PXL_20221128_132518008.jpg', 'PXL_20221128_132523288.jpg', 'PXL_20221128_132536702.jpg'],
-	link: 'https://www.facebook.com/groups/869565873983138/permalink/1175128863426836/?sale_post_id=1175128863426836'
-},
 
-{
-	title: 'Kruka',
-	description: 'Kruka med olika glasyrlager som ger färg från rödbrunt till skimrande mörkblått.',
-	price: 175,
-	images: ['PXL_20221016_105809465.jpg', 'PXL_20221016_105802244.jpg', 'PXL_20221016_105837594.jpg'],
-	link: 'https://www.facebook.com/groups/869565873983138/permalink/1175127006760355/?sale_post_id=1175127006760355'
-},
+
 {
 	title: 'Vas',
 	description: 'En vas i metallisk glasyr som går mellan silver och guld, med en topp av skimrande blått mot svart. 15cm hög',
@@ -137,6 +243,56 @@ let objectsForSale = [
 ]
 
 let sold = [
+	{
+		title: 'Kopp-set',
+		description: 'Kopp-set med olika glasyrlager som ger färg från rödbrunt till skimrande mörkblått och gräddvit glasyr inuti.',
+		price: 150,
+		images: ['PXL_20230416_183807463~2.jpg', 'PXL_20230416_183813360~2.jpg', 'PXL_20230416_183829269~2.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1278792339727154/?sale_post_id=1278792339727154'
+	},
+	{
+		title: 'Tumblermugg',
+		description: 'Tumblermugg med 3 olika glasyer som skapar en härligt galen kombo från vete till lila och blått.',
+		price: 150,
+		images: ['PXL_20221128_132518008.jpg', 'PXL_20221128_132523288.jpg', 'PXL_20221128_132536702.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1175128863426836/?sale_post_id=1175128863426836'
+	},
+
+	{
+		title: 'Kruka',
+		description: 'Kruka med olika glasyrlager som ger färg från rödbrunt till skimrande mörkblått.',
+		price: 175,
+		images: ['PXL_20221016_105809465.jpg', 'PXL_20221016_105802244.jpg', 'PXL_20221016_105837594.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1175127006760355/?sale_post_id=1175127006760355'
+	},
+	{
+		title: 'Lampett',
+		description: 'Lampett med hypnotiserande glittrande svart glasyr. Ca 20cm hög',
+		price: 250,
+		images: ['PXL_20231201_160746878~2.jpg', 'PXL_20231127_164722017~2.jpg', 'PXL_20231127_164751279~2.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1388946702045050/?sale_post_id=1388946702045050'
+	},
+	{
+		title: 'Lampett',
+		description: 'Lampett med hypnotiserande glittrande svart glasyr. Ca 20cm hög',
+		price: 250,
+		images: ['PXL_20231127_164820412~2.jpg', 'PXL_20231127_164828823~2.jpg', 'PXL_20231201_160746878~2.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1388947135378340/?sale_post_id=1388947135378340'
+	},
+	{
+		title: 'Kopp',
+		description: 'Kopp i djup svart glasyr med vågigt grön ovankant',
+		price: 150,
+		images: ['PXL_20231127_165229718~2.jpg', 'PXL_20231127_165239811~2.jpg', 'PXL_20231127_165244820~2.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1388944732045247/?sale_post_id=1388944732045247'
+	},
+	{
+		title: 'Kopp-sett',
+		description: '4 st koppar med olika glasyrlager som ger härlig jordnära känsla med rinningar av guld/rost.',
+		price: 150,
+		images: ['PXL_20231127_165032644~2.jpg', 'PXL_20231127_165045407~2.jpg', 'PXL_20231127_165050712~2.jpg', 'PXL_20231127_165128785.LONG_EXPOSURE-01.COVER~2.jpg'],
+		link: 'https://www.facebook.com/groups/869565873983138/permalink/1388945365378517/?sale_post_id=1388945365378517'
+	},
 	{
 		title: 'Ljuslykta',
 		description: 'Ljuslykta med glasyr som ger olika toner av blått',
